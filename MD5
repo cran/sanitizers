@@ -1,0 +1,11 @@
+2456e677883e4a71c433d43bf5598d21 *ChangeLog
+5935331086d752faed03d79a98477158 *DESCRIPTION
+ef6e697e8d6f75db2300264fc5861579 *NAMESPACE
+a5a24cd3f24cbdebcb508d1ef5aa4451 *R/sanitizer.R
+c7de4dbcfd330d686b0b5c94784aa807 *README.md
+a58d4dd7d1b7ac6e35011eb7ce3ca739 *inst/testUsage.txt
+7dcd8dd3deb7f84f4d3a129542a29bc6 *man/sanitizers-package.Rd
+e21a7ce11d4638a326a7abff6e5e7b24 *src/heap_address.cpp
+d4ccda6ec8fb385bac8301f122c07649 *src/stack_address.cpp
+18ab45727c34a975d640f4ea5177dc8b *tests/testHeapAddressSanitize.R
+0960db9bf3551664379198f7ee230421 *tests/testStackAddressSanitize.R
