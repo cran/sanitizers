@@ -1,3 +1,56 @@
+2023-06-11  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.1.1
+
+	* README.md: Expand with example using Rocker r-devel-san
+
+2023-06-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/init.c: Add (auto-generated) registration code
+	* NAMESPACE: Use .registration=TRUE
+	* sanitizers.R: Use registered symbols
+
+	* README.md: Update README text
+	* DESCRIPTION: Update DESCRIPTION text
+	* man/sanitizer-packages.Rd: Replaced multiple sections with calls to
+	corresponding function deriving from DESCRIPTION file instead
+	* cleanup: Added
+
+2023-06-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Correct typo, add badges
+
+2022-12-01  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
+
+2022-01-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Remove unused continuous integration artifact and badge
+
+2021-06-01  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (URL, BugReports): Added to DESCRIPTION
+
+2021-01-20  Dirk Eddelbuettel  <edd@debian.org>
+
+        * .github/workflows/ci.yaml: Add CI runner using r-ci
+	* README.md: Add new badge
+
+2014-09-04  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/int_overflow.cpp: New overflow example for undefined behavior
+	sanitizer with a big Thanks! to Greg Jefferis
+	* R/sanitizer.R (intOverflowSanitize): Caller for new sanitizer test
+	* tests/testIntOverflowSanitize.R: Test to tickle new sanitizer
+	* man/sanitizers-package.Rd: Add alias as well
+
+2014-08-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* tests/testStackAddressSanitize.R: Tests fail more reliably when
+	integer argument is smaller, hence adjusted
+	* tests/testHeapAddressSanitize.R: Idem
+
 2014-08-02  Dirk Eddelbuettel  <edd@debian.org>
 
 	* Description: Finalized release 0.1.0
